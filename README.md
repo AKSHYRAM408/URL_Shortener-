@@ -146,7 +146,7 @@ terraform destroy     # type "yes" to confirm
 | `terraform destroy` when done | Avoid unexpected charges |
 | Never commit `*.tfstate` | Contains sensitive infrastructure details |
 | Never commit AWS credentials | Security risk |
-| Stick to `ap-south-1` | Your configured region |
+| Stick to `your-preffered region` | Your configured region |
 
 ---
 
