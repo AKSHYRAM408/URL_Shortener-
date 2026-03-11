@@ -8,7 +8,8 @@ User → API Gateway → Lambda (Python) → DynamoDB
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure (Flow)
+
 
 ```
 url-shortener/
