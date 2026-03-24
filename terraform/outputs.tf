@@ -13,15 +13,18 @@ output "shorten_endpoint" {
   value       = "${aws_api_gateway_stage.prod.invoke_url}/shorten"
 }
 
+
 output "redirect_endpoint" {
   description = "Base URL for redirects (GET /<code>)"
   value       = "${aws_api_gateway_stage.prod.invoke_url}/{code}"
 }
 
+
 output "stats_endpoint" {
   description = "Base URL for stats (GET /stats/<code>)"
   value       = "${aws_api_gateway_stage.prod.invoke_url}/stats/{code}"
 }
+
 
 output "lambda_function_name" {
   description = "Name of the deployed Lambda function"
