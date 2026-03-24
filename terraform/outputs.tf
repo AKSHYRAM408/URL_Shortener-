@@ -7,6 +7,7 @@ output "api_base_url" {
   value       = aws_api_gateway_stage.prod.invoke_url
 }
 
+
 output "shorten_endpoint" {
   description = "Full URL to shorten a URL (POST)"
   value       = "${aws_api_gateway_stage.prod.invoke_url}/shorten"
