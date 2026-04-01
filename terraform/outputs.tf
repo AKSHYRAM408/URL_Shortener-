@@ -14,6 +14,7 @@ output "shorten_endpoint" {
 }
 
 
+
 output "redirect_endpoint" {
   description = "Base URL for redirects (GET /<code>)"
   value       = "${aws_api_gateway_stage.prod.invoke_url}/{code}"
