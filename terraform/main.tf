@@ -4,6 +4,7 @@
 # Region: ap-south-1 (Mumbai) — 100 % Free Tier
 # ──────────────────────────────────────────────────────────────────
 
+
 terraform {
   required_version = ">= 1.0"
   required_providers {
